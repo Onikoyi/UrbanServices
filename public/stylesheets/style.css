@@ -1,0 +1,64 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: purple;
+  }
+
+#tempoB {
+  color: purple;
+  width: 200px;
+  background-color: gold;
+  height: 50px;
+ 
+}
+#tenrary {
+  float: right;
+}
+#permaB {
+  color: purple;
+  width: 200px;
+   position: center;
+  background-color: gold;
+  height: 50px;
+}
+#permadiv {
+  float: right;
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: purple;
+}
+ul.topnav li {
+  float: right;
+}
+ul.topnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+ul.topnav li a:hover {
+  background-color:greenyellow;
+}
+ul.topnav li.icon {
+  display: none;
+}
+.logo {
+  float: left;
+  width: 200px;
+  height: 130px;
+  color-interpolation-filters: sRGB;
+}
+#tit1 {
+    padding-top: -1px;
+
+}
+#hedadiv {
+   height: 10px;    
+}
