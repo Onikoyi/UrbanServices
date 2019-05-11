@@ -7,7 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Board Of Trustee</title>
     <link rel='stylesheet' href='/stylesheets/boardOfTrustees.css' />
-     
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script> 
   <div>
     <ul class="admintopnav">
         <li><a href="#">Board Of Trustees</a></li>
@@ -21,13 +23,54 @@
 <body>
     
   <div>
-    <img src="/images/boardOfTrusteeResources/RafiuTinubu.jpg"style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
-    <img src="/images/boardOfTrusteeResources/EngrLateefOnikoyi.jpg" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
-    <img src="/images/boardOfTrusteeResources/ProfessorObafunwa.png" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
-    <img src="/images/boardOfTrusteeResources/AjoseGaniu.jpg" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
-    <img src="/images/homepageresources/logo.gif" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
-    <img src="/images/homepageresources/logo.gif" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
+    <img  id="board1" title="ALH. RAFIU BABATUNDE TINUBU,Former Lagos State Head Of Service,
+     Former Federal Civil Service Commissioner(CHAIRMAN)" 
+    src="/images/boardOfTrusteeResources/RafiuTinubu.jpg"
+    style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;" >
+    <img id="board2" title= "ALH.(ENGR). ABDUL LATEEF ADIO ONIKOYI ,MD/CEO at LABEC NIGERIA LTD(MEMBER) " 
+    src="/images/boardOfTrusteeResources/EngrLateefOnikoyi.jpg" 
+    style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
+    <img id="board3" title= "PROF. JOHN OBAFUNWA, Former Vice Chancellor of Lagos State University(MEMBER)" 
+    src="/images/boardOfTrusteeResources/ProfessorObafunwa.png" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
+    <img  id="board4" title= "ALH. GANIYU AJOSE, BURSAR, Micheal Otedola College Of Primary Education(MOCPED),Epe(MEMBER)" 
+    src="/images/boardOfTrusteeResources/AjoseGaniu.jpg" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
+    <img id="board5" title= "" src="/images/homepageresources/logo.gif" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
+    <img id="board6" title= "" src="/images/homepageresources/logo.gif" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
     <p style="clear: both;"></p>
   </div>
+  <script>
+    $(function() {
+    $( "#board1" ).tooltip({
+        show: {
+        effect: "slideDown",
+        delay: 100
+        }
+    });
+});
+$(function() {
+    $( "#board2" ).tooltip({
+        show: {
+        effect: "slideDown",
+        delay: 100
+        }
+    });
+});
+$(function() {
+    $( "#board3" ).tooltip({
+        show: {
+        effect: "slideDown",
+        delay: 100
+        }
+    });
+});
+$(function() {
+    $( "#board4" ).tooltip({
+        show: {
+        effect: "slideDown",
+        delay: 100
+        }
+    });
+});
+  </script>
 </body>
 </html>

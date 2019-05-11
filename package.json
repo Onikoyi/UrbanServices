@@ -16,5 +16,8 @@
     "jquery": "^3.4.1",
     "morgan": "~1.9.1",
     "nodemon": "^1.19.0"
+  },
+  "devDependencies": {
+    "install-peers": "^1.0.3"
   }
 }
