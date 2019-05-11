@@ -11,8 +11,16 @@ ul.admintopnav {
     overflow: hidden;
     background-color: gold;
     height: 30px;
+    margin-top:  20px;
+    margin-bottom: 20px;
 }
 ul.admintopnav li {
-    float: center;
+    float: left;
     font-size: 30px;
+  }
+  #bakhm {
+      float: right;
+      margin-top: 0px;
+      color:green;
+      font-style: italic;
   }
