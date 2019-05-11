@@ -12,5 +12,11 @@ router.get('/', function(req, res, next) {
 router.get('/boardOfTrustee', function(req, res, next) {
   res.render('boardOfTrustee', { title: 'Board Of Trustees' });
 });
+router.get('/clientRegistration', function(req, res, next) {
+  res.render('client', { title: 'Welcome Dear Client' });
+});
+router.get('/contactUs', function(req, res, next) {
+  res.render('ContactUs', { title: 'Contact Us' });
+});
 
 module.exports = router;

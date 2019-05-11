@@ -11,7 +11,7 @@
   <body>
       <ul class="topnav">
           
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="/contactUs">Contact Us</a></li>
             <li><a href="#">Meet the CEO</a></li>
             <li><a href="#">Our Services</a></li>
             <li><a href="/boardOfTrustee">Board Of Trustee</a></li>
@@ -78,10 +78,10 @@
   </div>
   <img src="/images/homepageresources/Mayweather.jpeg" alt="HTML5 Icon" style="width:600px;height:350px;">
 <div id= "tenrary" class="RequestTabs">
-  <button id=tempoB>Request for Temporary Services</button>
+  <button id=tempoB  >Request for Temporary Services</button>
 </div>
 <div id= "permadiv" class="RequestTabs">
-  <button id=permaB>Request for Permanent Services</button>
+  <button id=permaB >Request for Permanent Services</button>
   <div>
     <h2 id="topico"> What we desire...................</h2>
   </div>
@@ -95,5 +95,10 @@
 </div>
 
 <script type="text/javascript" src ="/javascripts/home.js"></script>
+<script type="text/javascript">
+  document.getElementById("permaB").onclick = function () {
+        location.href = "/boardOfTrustee";
+    };
+</script>
    </body>
 </html>
