@@ -9,4 +9,8 @@ router.get('/', function(req, res, next) {
     res.render('adminPage', { title: 'Admin' });
 });
 
+router.get('/boardOfTrustee', function(req, res, next) {
+  res.render('boardOfTrustee', { title: 'Board Of Trustees' });
+});
+
 module.exports = router;
