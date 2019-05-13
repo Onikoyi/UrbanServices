@@ -13,10 +13,13 @@ router.get('/boardOfTrustee', function(req, res, next) {
   res.render('boardOfTrustee', { title: 'Board Of Trustees' });
 });
 router.get('/clientRegistration', function(req, res, next) {
-  res.render('client', { title: 'Welcome Dear Client' });
+  res.render('clientRegistration', { title: 'Welcome Dear Client' });
 });
 router.get('/contactUs', function(req, res, next) {
   res.render('ContactUs', { title: 'Contact Us' });
+});
+router.get('/userlogin', function(req, res, next) {
+  res.render('userlogin', { title: 'User Login' });
 });
 
 module.exports = router;

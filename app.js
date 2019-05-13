@@ -7,6 +7,21 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
+var mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost:27017/test', {useNewUrlParser: true})
+.then(()=> console.log("connected to db success"))
+.catch(err => console.log("connect to db error", err))
+
+var User = require('./models/users')
+var olu = new User({
+  name: "oluwole",
+  email:"asd@d.com",
+  password:"2345678"
+})
+
+olu.save()
+
+
 var app = express();
 
 // view engine setup
