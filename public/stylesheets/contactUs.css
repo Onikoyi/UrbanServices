@@ -1,3 +1,8 @@
+ #formole {
+   padding-right: 40%;
+   padding-left: 0%;
+ }
+ 
  /* Style inputs with type="text", select elements and textareas */
  input[type=text], select, textarea {
     width: 100%; /* Full width */
@@ -12,7 +17,7 @@
   
   /* Style the submit button with a specific background color etc */
   input[type=submit] {
-    background-color: #4CAF50;
+    background-color: purple;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -22,14 +27,14 @@
   
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: gold;
   }
   
   /* Add a background color and some padding around the form */
   .container {
     border-radius: 2px;
     background-color: #f2f2f2;
-    padding: 10px;
+    
     width: 40%;
     float: right;
   } 
@@ -38,8 +43,8 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: green;
-    height: 30px;
+    background-color: purple;
+    height: 40px;
     margin-top:  30px;
     margin-bottom: 20px;
 }
@@ -48,4 +53,7 @@
     margin-top: 0px;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
+}
+#intexinnav {
+  color: white;
 }
