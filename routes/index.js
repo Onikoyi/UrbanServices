@@ -21,6 +21,8 @@ router.get('/contactUs', function(req, res, next) {
 router.get('/userlogin', function(req, res, next) {
   res.render('userlogin', { title: 'User Login' });
 });
-
+router.get('/ceoProfile', function(req, res, next) {
+  res.render('ceoProfile', { title: 'CEO Data Page' });
+});
 
 module.exports = router;
