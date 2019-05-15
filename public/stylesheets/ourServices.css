@@ -1,0 +1,43 @@
+body {
+    background-color: purple;
+}
+#servicestable {
+    /* width:50%; */
+    font-size: 45px;
+}
+#tblhead {
+    color: white;
+}
+#tbl001 {
+    padding-left: 35%;
+    padding-right: 35%;
+    /* padding-top: 5%; */
+}
+.rowss{
+    font-size: 45px;
+}
+ul.admintopnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    height: 30px;
+    margin-top:  20px;
+    margin-bottom: 20px;
+    height: 50px;
+}
+ul.admintopnav li {
+    float: left;
+    font-size: 30px;
+  }
+  #bakhm {
+      float: right;
+      margin-top: 0px;
+      color:green;
+      font-style: italic;
+  }
+  #preamb {
+      font-size: 40px;
+      color: white;
+  }
