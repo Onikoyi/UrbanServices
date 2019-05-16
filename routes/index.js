@@ -27,5 +27,7 @@ router.get('/ceoProfile', function(req, res, next) {
 router.get('/ourServices', function(req, res, next) {
   res.render('ourServices', { title: 'Our Services' });
 });
-
+router.get('/urbanPilot', function(req, res, next) {
+  res.render('urbanPilot', { title: 'Urban Pilot' });
+});
 module.exports = router;

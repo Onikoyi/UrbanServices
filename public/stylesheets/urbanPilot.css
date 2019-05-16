@@ -1,0 +1,39 @@
+body .left-side {
+    width: 50%;
+    
+}
+
+body .right-side {
+    width: 50%;
+    float: right;
+     
+}
+
+
+
+ul.admintopnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: purple;
+    height: 30px;
+    margin-top:  20px;
+    margin-bottom: 20px;
+}
+ul.admintopnav li {
+    float: left;
+    font-size: 30px;
+  }
+  #bakhm {
+      float: right;
+      margin-top: 5px;
+      font-size: 20px;
+      font-style: italic;
+  }
+  #bakhm1e {
+      color: white;
+  }
+  #driversPic {
+      padding-top: 10%;
+  }
