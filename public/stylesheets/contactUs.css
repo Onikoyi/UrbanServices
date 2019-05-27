@@ -1,7 +1,25 @@
- #formole {
+ body .right-side {
+   width: 50%;
+   float: right;
+ }
+ body .left-side {
+   width: 50%;
+
+   padding-top: 10%;
+ }
+ #cmpnyname {
+
+  font-style: italic;
+  color: purple;
+ }
+ #ourcmpnyaddress {
+   font-size: 30px;
+   color: blue;
+ }
+ /* #formole {
    padding-right: 40%;
    padding-left: 0%;
- }
+ } */
  
  /* Style inputs with type="text", select elements and textareas */
  input[type=text], select, textarea {
@@ -35,7 +53,7 @@
     border-radius: 2px;
     background-color: #f2f2f2;
     
-    width: 40%;
+    width: 60%;
     float: right;
   } 
   ul.contacttopnav {

@@ -1,20 +1,30 @@
 body {
-    background-color: purple;
+    background-color: rgb(202, 117, 202);
+}
+body .left-side {
+    width: 50%;
+}
+body .right-side {
+
+    width: 50%;
+    float: right;
 }
 #servicestable {
     /* width:50%; */
     font-size: 45px;
 }
 #tblhead {
-    color: white;
+    color: black;
 }
 #tbl001 {
     padding-left: 35%;
-    padding-right: 35%;
+    
     /* padding-top: 5%; */
 }
 .rowss{
-    font-size: 45px;
+    font-size: 35px;
+    background-color: rgb(202, 117, 202);
+ 
 }
 ul.admintopnav {
     list-style-type: none;
@@ -25,11 +35,11 @@ ul.admintopnav {
     height: 30px;
     margin-top:  20px;
     margin-bottom: 20px;
-    height: 50px;
+    
 }
 ul.admintopnav li {
     float: left;
-    font-size: 30px;
+    font-size: 20px;
   }
   #bakhm {
       float: right;
@@ -38,6 +48,6 @@ ul.admintopnav li {
       font-style: italic;
   }
   #preamb {
-      font-size: 40px;
-      color: white;
+      font-size: 30px;
+     
   }

@@ -1,3 +1,6 @@
+body {
+    background-color: rgb(202, 117, 202);
+}
 body .left-side {
     width: 50%;
     
@@ -6,17 +9,17 @@ body .left-side {
 body .right-side {
     width: 50%;
     float: right;
-     
+       
 }
 
 
 
 ul.admintopnav {
     list-style-type: none;
-    margin: 0;
+     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: purple;
+    background-color: white;
     height: 30px;
     margin-top:  20px;
     margin-bottom: 20px;
@@ -32,8 +35,25 @@ ul.admintopnav li {
       font-style: italic;
   }
   #bakhm1e {
-      color: white;
+      color: purple;
   }
   #driversPic {
       padding-top: 10%;
   }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: purple;
+    text-align: center;
+  }
+  #rqstbtn  {
+      margin-top: 80px;    
+  }
+  #rqstbtn button  {
+    font-size: 45px;
+    color: white ;
+    background-color: purple;
+}
