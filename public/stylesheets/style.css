@@ -4,16 +4,16 @@ body {
   color: purple;
   background-image:  url("/images/homepageresources/logo.jpg");
    
-    background-size: 1500px;
+    background-size: 3000px;
   }
 
-/* #tempoB {
-  color: purple;
+#tempoB {
+  color:white;
   width: 200px;
-  background-color: gold;
+  background-color: purple;
   height: 50px;
  
-} */
+}
 #tenrary {
   float: right;
 }
@@ -27,7 +27,7 @@ body {
   float: right;
 }
 .RequestTabs {
-  padding-right: 100px;
+  padding-right: 50px;
   padding-bottom: 0px;
 }
 ul.topnav {
@@ -95,6 +95,24 @@ ul.topnav li.icon {
   /* background-color:purple; */
   color: purple;
   text-align: center;
+}
+#hmemail {
+  color:purple;
+  font-size: 34px;
+  
+}
+#advert1 {
+  font-size: 24px;
+}
+#advertopic {
+  font-size: 25px;
+}
+#head1topic {
+  font-size: 25px;
+  font-style: italic;
+}
+#inlineadv {
+  color: blue;
 }
  /* for the Picture Slides*/
   

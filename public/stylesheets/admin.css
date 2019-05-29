@@ -2,14 +2,15 @@
 
 html {
     background-color: purple;
-    background-image:  url("/images/homepageresources/logo.jpg");
    
-    background-size: 1500px;
   }
   
   body {
     font-family: "Poppins", sans-serif;
     height: 100vh;
+    background-image:  url("/images/homepageresources/logo.jpg");
+   
+    background-size: 1500px;
     }
   
   a {

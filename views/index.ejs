@@ -10,7 +10,7 @@
         <img class="logo" src="/images/homepageresources/logo.jpg" alt = "My_logo"/>
         </div>
        
-    <h1 id= "tit1">TUNTECH URBAN AND ENTERPRISES SOLUTIONS NIGERIA LIMIED</h1>
+    <h1 id= "tit1">TUNTECH URBAN AND ENTERPRISES SOLUTIONS NIGERIA LIMITED</h1>
   </head>
   <body>
       <ul class="topnav">
@@ -26,7 +26,9 @@
             </li>
           </ul>
     
-  <h1><marquee> <p>Welcome to TUNTECH URBAN AND ENTERPRISES SOLUTIONS NIGERIA LIMIED where we make life a lot easier for you</p></marquee></h1> 
+  <span id="head1topic"><marquee> <p>Welcome to TUNTECH URBAN AND ENTERPRISES SOLUTIONS NIGERIA LIMITED where we make life a lot easier for you</p></marquee></span> 
+  <span id="advertopic"><u>Advertisement..</u></span>
+  <span id="advert1"><marquee  style="color: red" behavior="alternate" > We are currently recruiting<span id="inlineadv"><strong><u> Drivers</u></strong></span>. Kindly send your CV to<span id="hmemail"> tuntechsolutions@gmail.com</span></marquee></span>
   <!-- <div class="slideshow-container">
     <div class="mySlides fade">
       <div class="numbertext">1 / 7</div>
@@ -81,9 +83,9 @@
     <span class="dot" onclick="currentSlide(7)"></span>
   </div> -->
   <img src="/images/homepageresources/lagosUrbanBridge.jpg" alt="HTML5 Icon" title="Lekki-Ikoyi Suspended Bridge in Lagos State, Nigeria" style="width:600px;height:350px;">
-<!-- <div id= "tenrary" class="RequestTabs">
-  <button id=tempoB  >Request for Temporary Services</button>
-</div> -->
+<div id= "tenrary" class="RequestTabs">
+  <button id=tempoB  >REQUEST FOR A DRIVER<a href="/urbanPilot"></a></button>
+</div>
 <div id= "permadiv" class="RequestTabs">
   <button id=permaB >BE PART OF OUR SUCCESS STORY<a href="/clientRegistration"></a></button>
   <div>
@@ -104,6 +106,10 @@
 <script type="text/javascript">
   document.getElementById("permaB").onclick = function () {
         location.href = "/clientRegistration";
+    };
+
+    document.getElementById("tempoB").onclick = function () {
+        location.href = "/urbanPilot";
     };
 </script>
    </body>
