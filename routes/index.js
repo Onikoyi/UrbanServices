@@ -30,4 +30,7 @@ router.get('/ourServices', function(req, res, next) {
 router.get('/urbanPilot', function(req, res, next) {
   res.render('urbanPilot', { title: 'Urban Pilot' });
 });
+router.get('/career', function(req, res, next) {
+  res.render('career', { title: 'Career' });
+});
 module.exports = router;

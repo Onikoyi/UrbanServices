@@ -1,5 +1,8 @@
 body {
     background-color: rgba(0, 128, 117, 0.048);
+    background-image:  url("/images/homepageresources/logo.jpg");
+   
+    background-size: 1800px;
 }
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);

@@ -2,7 +2,9 @@ body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   color: purple;
-  
+  background-image:  url("/images/homepageresources/logo.jpg");
+   
+    background-size: 1500px;
   }
 
 /* #tempoB {
@@ -34,14 +36,15 @@ ul.topnav {
   margin-bottom: 0px;
   padding: 0;
   overflow: hidden;
-  background-color: purple;
+  /* background-color: purple; */
+  
 }
 ul.topnav li {
   float: right;
 }
 ul.topnav li a {
   display: inline-block;
-  color: #f2f2f2;
+  color: purple;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -89,8 +92,8 @@ ul.topnav li.icon {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color:purple;
-  color: white;
+  /* background-color:purple; */
+  color: purple;
   text-align: center;
 }
  /* for the Picture Slides*/

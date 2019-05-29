@@ -1,5 +1,8 @@
 body {
     background-color: rgb(202, 117, 202);
+    background-image:  url("/images/homepageresources/logo.jpg");
+   
+    background-size: 1500px;
 }
 body .left-side {
     width: 50%;
@@ -31,7 +34,7 @@ ul.admintopnav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: white;
+    /* background-color: white; */
     height: 30px;
     margin-top:  20px;
     margin-bottom: 20px;

@@ -1,31 +1,49 @@
 body {
     background-image:  url("/images/homepageresources/logo.jpg");
    
-    background-size: 400px;
+    background-size: 1500px;
+
+    
 }
-#pic1 {
-    border: 3px black;
-}
-#pic2 {
+body .right-side {
+    width: 50%;
     float: right;
 }
+body .left-side {
+    width: 50%;
+   }
 ul.admintopnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    /* background-color:rgba(228, 127, 228, 0); */
+    /* background-color: blue; */
     height: 30px;
     margin-top:  20px;
     margin-bottom: 20px;
+    
 }
 ul.admintopnav li {
     float: left;
-    font-size: 30px;
+    font-size: 20px;
   }
   #bakhm {
       float: right;
       margin-top: 0px;
       color:white;
       font-style: italic;
+  }
+  #listrecruit {
+      color: blue;
+      font-size: 35px;
+  }
+  #headin {
+      color: crimson;
+  }
+  #recruittails {
+      font-size: 35px;
+      color: blue;
+  }
+  #mailapply {
+      color: red;
   }
