@@ -8,6 +8,7 @@ body {
 body .right-side {
     width: 50%;
     float: right;
+ 
 }
 body .left-side {
     width: 50%;
@@ -45,5 +46,9 @@ ul.admintopnav li {
       color: blue;
   }
   #mailapply {
+      color: red;
+  }
+  #cariahead1 {
+      font-size: 40px;
       color: red;
   }
